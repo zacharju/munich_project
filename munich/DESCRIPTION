@@ -1,0 +1,27 @@
+Package: munich
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Julian", "Zacharias",
+      email = "julian.zacharias@freenet.de",
+      role = c("aut", "cre")
+    )
+  )
+Description: Examples for the workshoop at LMU Munich.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends:
+  R (>= 4.6)
+Imports:
+  stringr
+Suggests:
+    dplyr,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/roxygen2/version: 8.1.0
+VignetteBuilder: knitr
+Config/testthat/edition: 3
